@@ -2,7 +2,7 @@ Scarecrowbot
 Eric Buhr
 IOT Capstone project
 SEIS 744 
-nstructors: Justin Grammens & John Pritchard
+Instructors: Justin Grammens & John Pritchard
 
 Problem: In my backyard, squirrels destroy plants, lawn furniture and even packages left near the back door.  We have tried many ways to
 deter them with minimal success. We wanted to find a non-lethal way to do so and repel them from an area on a consistent basis using IoT. 
@@ -20,14 +20,20 @@ canopy. The enclosure is hooked onto a garden stake to elevate the device a few 
 the roof or canopy would act as blinders to focus the detection to directly in front of the device. 
 
 Hardware: 
-Key equipment used:
+
 1) Particle Photon (and Half Breadboard) --I used this microcontroller becuase of its small footprint and WiFi communications that I
 could use around my house and yard.
+
 2) PIR sensor -- to detect motion of squirrels (light/occupancy sensor is not sensitive enough) and PIR has better range
+
 3) Piezo buzzer -- emits annoying sound or beep using tone() function -- simple to use and has small footprint
+
 4) LED  -- to light up on detection
+
 5) 100 Ohm resistor (for LED)
+
 6) A myriad of wires
+
 7) 3D printed enclosure with garden stake(s)
 
 How to Get Started and Operate Scarecrowbot
